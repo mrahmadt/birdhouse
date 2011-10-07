@@ -140,7 +140,8 @@ function BirdHouse(params) {
 		var win = Ti.UI.createWindow({
 			top: 0,
 			modal: true,
-			fullscreen: true
+			fullscreen: true,
+			title: 'Twitter login'
 		});
 		// add close button on iPhone
 		if (Ti.Platform.osname=='iphone' && cfg.show_login_toolbar) {
